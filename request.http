@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "Caderno 96 fls",
+    "price": 13.20
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET  http://localhost:4002/products/
+
+###
+
+PUT http://localhost:4002/products/
+Content-Type: application/json
+
+{
+    "name": "Caderno 100 Fls",
+    "price": 15
+}
+
+###
+
+DELETE http://localhost:4002/products/
